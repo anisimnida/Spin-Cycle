@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".WelcomeActivity">
+
+    <ImageView
+        android:id="@+id/imageCircle"
+        android:layout_width="185dp"
+        android:layout_height="135dp"
+        android:src="@drawable/circle"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageEllipse"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:src="@drawable/ellipse"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageAmico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/amico"
+        android:layout_marginTop="155dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/title"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageAmico"
+        tools:ignore="Miss  ingConstraints" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/description"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageCircle"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/create_account"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="590dp"
+        android:backgroundTint="@color/new_blue"
+        android:text="@string/create_account"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/login"
+        android:textColor="@color/new_blue"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/create_account"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

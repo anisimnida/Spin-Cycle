@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SpinCycle</string>
+    <string name="name_user">Jajaraji</string>
+    <string name="address">Kotagede</string>
+    <string name="recommendations">Recommendations</string>
+    <string name="laundry_name">Laundry Name</string>
+    <string name="laundry_service">Laundry Service</string>
+    <string name="title">Spin Cycle</string>
+    <string name="description">One stop destination for all laundry work such as washing, ironing, and dry cleaning</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="name">Name</string>
+    <string name="fullname">Full Name</string>
+    <string name="email">E-mail</string>
+    <string name="email_field">Email</string>
+    <string name="password">Password</string>
+    <string name="or_login">Have an account?</string>
+    <string name="desc">We are available in every location</string>
+    <string name="example">Kotagede, Yogyakarta, Special Region Yogyakarta</string>
+    <string name="current_location">Use Current Location</string>
+    <string name="add_address">Add Address +</string>
+    <string name="home">Home</string>
+    <string name="favorite">Favorite</string>
+    <string name="notification">Notification</string>
+    <string name="history">History</string>
+    <string name="profile">Profile</string>
+</resources>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".MainActivity">
+
+    <!-- Profile Section -->
+    <ImageView
+        android:id="@+id/profileUser"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/nameUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="100dp"
+        android:text="@string/name_user"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/addressUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/address"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <!-- Search and Notification Icons -->
+    <ImageButton
+        android:id="@+id/search_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_search"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="325dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/notification_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/ic_notifications"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/search_bar"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <!-- Button Section -->
+    <LinearLayout
+        android:id="@+id/button_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/express"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="125dp"
+            android:outlineAmbientShadowColor="@color/black"
+            android:layout_marginStart="33sp"
+            android:layout_marginEnd="15dp"
+            tools:ignore="ContentDescription,MissingConstraints" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/delivery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="125dp"
+            android:outlineAmbientShadowColor="@color/black"
+            android:layout_marginStart="15sp"
+            android:layout_marginEnd="15dp"
+            tools:ignore="ContentDescription,MissingConstraints" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/near"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="125dp"
+            android:outlineAmbientShadowColor="@color/black"
+            android:layout_marginStart="15sp"
+            android:layout_marginEnd="15dp"
+            tools:ignore="ContentDescription,MissingConstraints" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/self_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="125dp"
+            android:outlineAmbientShadowColor="@color/black"
+            android:layout_marginStart="15sp"
+            android:layout_marginEnd="33dp"
+            tools:ignore="ContentDescription,MissingConstraints" />
+
+    </LinearLayout>
+
+    <!-- Banner Image -->
+    <ImageView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/banner"
+        android:layout_marginTop="220dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:layout_editor_absoluteX="-16dp" />
+
+    <!-- Recommendations -->
+    <TextView
+        android:id="@+id/recommendations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/recommendations"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/banner"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:padding="10dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintTop_toBottomOf="@+id/recommendations"
+        tools:ignore="MissingConstraints"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
