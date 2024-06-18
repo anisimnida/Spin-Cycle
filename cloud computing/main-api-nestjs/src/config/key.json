@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "be-spincycle9963",
+  "private_key_id": "0d435b8f51d2155818cc988fc609e0322e828d43",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDRPDY/AZcTxrJd\nfbTCgXwx1owt73XksHpDt8mb4EBOWq+yiLh+hA45iFYpqgk3RXhvfEI836NSCOk5\ns+tdrbxuiTLwCEDEO0H6vIqpuZKSUAcu1vx+pFqj/ERh9idzd9BQpbLVbtpotv2j\nAQKR+8xiotOq1vACQgxVSMpsy/Bmz2gyvLIWG1pveM4NDYOEY9b+YeE0Nm0zpSJF\nKAsZ8R/BEjwxAOpNpu4fyHWmhWlP7w3e7bzPoZ22/9nASenp/I1Tq8n08U2Eg+Gn\nC6llMbznaZCMfRMxkSocqrpJnpR6TOc6RBNd2Ou4HQ4qsHeuuGegx7GsmdZL4Rbl\nuQCnuOLTAgMBAAECggEAK3LObOz+m0uydDmLVKygxpSfzVYhbBi9etxqUCUUFXE9\ndNxxO0xey9Gk2sgFW+XgKX5rHsrt1jYlgCb9ZBmUvHtfCXsdP+JyRAfs32u6pQlb\nRH2+NuoYLF9RL+p2rMKfjm+qICoBzqbZKoUmLHxWJ9FaFOrHMiDXAMq5xjffNunQ\nSQgjv2uG2SEsCp2rDSoRFfAqhUiHWeckvUZLkiCEyc6pQ5rLWPrTkPc1U5CmrIKB\nRc+ShX5aV0tdVB1wry0rbMgH0OMphiClg3lc2zQLSfOmZw7DbOF/PWBNDHBwNEec\nddSEwdWb3YyxArXV37XZeL1npI5Lk48BBNiXUblBUQKBgQD/hO0/Gglt9UPCHBEd\npqMTEmTplLvSVIdeXVb1HU9qgj0Dvh6Q1/wxkfbu8hPcyKp1e8jrcAchQEaNyd0l\nxt/9iwmSAIuEBwQvVn3XrE2Ll0LsdutJASkDboL4EkbqQ7OcRQRaJ8EI0AqDVIYH\ncyr0f0JbcIEmDLmI5XchgCLEiQKBgQDRoP30TOCTxVHJaRmi979n/fKwE3LEgtuA\nI+E/XP/IpwANT1lUl4E6oTeIfwU/weFCDqqKInhFngaUafK0b+axuEc8qLPFI7EG\npHj4Z+4sC8rpVVX/xQ2vs90buWSh53H7h4Fmlh3y/K3MZ4prnRfbtZ9wfuog6LTo\nusuac12NewKBgH1VJFH5YXqv/UZvIe4bWI34TctNCzvF/ohI3GhqshOaQnddf/yo\nFKnz4N2fnCKFwybRSuJBFx42OuU9iN4IyMHCuzUEU2q1TlYx5JQvjfHUhh0az5oF\nmap3QIKR5HrwLl+Ocu4N5d9+vEli4kMxOHapHVFgw9h4EWGWvHKQOX2RAoGAZvKy\nZRywGcIIxWoZDgCvfmmnmrMiZMGC/K4iO5T3hNoG24KBc1qoO1vbQuxmboZPkrpT\nJF2DRWUzBAX4DIb7+4FtcqvDBWje0k1Jn2yi+fycnPSstFxYuVYSmz/z3NMmFgnZ\nEcFdWeyfice7odfXVK4gbAXYA2tlFPpPbT2EzysCgYAEaKWq/t+C4GEuQTrcAruQ\nYVFql/dJwpsfh1cknn14CiannESixgJxYt1uOsFuesl5qVLpcxB4YAxG6lFjb8E1\nSOyLOuLQWMuGcSpRum7ihzgYbMUU0fxZVKGFin1Edbn1PcEi4FqikCiLTT+bjrHr\njmlU35F9gwQeRAypJ2R9VA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "spincycleadmin123@be-spincycle9963.iam.gserviceaccount.com",
+  "client_id": "107394786359656184711",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/spincycleadmin123%40be-spincycle9963.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
