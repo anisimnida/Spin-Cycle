@@ -9,7 +9,6 @@ Deploy Link ML-API
 
 
 
-
 Full Endpoint Documentation Main-API
 1. https://documenter.getpostman.com/view/26309282/2sA3XS9L5H
  
@@ -17,7 +16,6 @@ Run Main-API
  1. npm run start
 
 Deploy Link Main-API
-
 1. https://main-api-nestjs-ymdzuqlzrq-uc.a.run.app
 
 
