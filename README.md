@@ -27,7 +27,7 @@ Our app can adjust your preferences for the services the laundry place offers, m
 |   Elsa Maulida Pangesti   | M004D4KX2361 | Machine Learning Engineer |      https://github.com/elsamaulida5      |
 |       Nur Shofiatun       | M004D4KX1666 | Machine Learning Engineer |      https://github.com/NurShofiatun      |
 |      Putri Ayu Desita     | M004D4KX2125 | Machine Learning Engineer |      https://github.com/putriayudesita    |
-| Inas Tsabitah Al Ma'Isyah | C258D4KX0202 |      Android Engineer     |      https://github.com/inastsabitaah     |
-|       Dinar Maharani      | C258D4KX0215 |      Android Engineer     |      https://github.com/diinarmaharani    |
-|   Regista Syahya Pratiwi  | A258D4KX3532 |  Cloud Computing Engineer |      https://github.com/regggista         |
-|       Anisa Nurohmah      | A179D4KX4348 | Cloud Computing Engineer  |      https://github.com/anisimnida        |
+| Inas Tsabitah Al Ma'Isyah | C258D4KX0202 |  Cloud Computing Engineer |      https://github.com/inastsabitaah     |
+|       Dinar Maharani      | C258D4KX0215 |  Cloud Computing Engineer |      https://github.com/diinarmaharani    |
+|   Regista Syahya Pratiwi  | A258D4KX3532 |      Android Engineer     |      https://github.com/regggista         |
+|       Anisa Nurohmah      | A179D4KX4348 |      Android Engineer     |      https://github.com/anisimnida        |
